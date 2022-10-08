@@ -1,0 +1,435 @@
+@media only screen and (max-width: 575px){
+/*  X-small*/
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+nav>ul{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.myslider .text-banner{
+	position: absolute;
+	top: 25%;
+	left: 13%;
+	color: #fff;
+}
+
+.bar-progres{
+	position: absolute;
+	bottom: 0.75%;
+	left: 0;
+	width: 13%;
+	height: 3.5px;
+	background-color: #5cadd3;
+}
+
+.text-banner h2{
+    font-size: 13px;
+}
+
+.text-banner p{
+	font-size: 6.5px;
+}
+
+.myslider .button{
+	background-color: #5cadd3;
+	width: 55px;
+	height: 21.5px;
+	text-align: center;
+}
+
+.button a{
+	padding: 7.5px;
+	font-size: 7px;
+}
+
+.block-services-img-details{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.block-services-img-details .services-img{
+	width: 100%;
+}
+
+.services-details .block-details{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.submenu>ul{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.block-gallery .gallery{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.gallery figure{
+	width: 80%;
+}
+
+figure>figcaption{
+	position: absolute;
+	top: 66%;
+	display: none;
+	width: 100%;
+	height: 33%;
+}
+
+figure>div{
+	position: absolute;
+	top: 55%;
+	left: 80%;
+	width: 60px;
+	height: 60px;
+	z-index: 100;
+}
+
+.maps .formulaire{
+	margin: 0;
+	padding: 1%;
+	width: 185px;
+	position: absolute;
+	top: 50%;
+	left: 65%;
+	transform: translate(-50%,-50%);
+	background-color: rgba(255,255,255,0.95);
+}
+
+#form .field{
+	width: 165px;
+	height: 35px;
+}
+
+#form #Message{
+	width: 165px;
+	height: 100px;
+}
+
+.btn{
+	padding: 8px;
+	font-family: "roboto-bold";
+	font-size: 8px;
+	color: #fff;
+	background-color:#5cadd3; 
+	border: none;
+	border-bottom: 3px solid rgba(30,144,255, 0.8);
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+}
+
+@media only screen and (min-width:576px) and (max-width: 767px){
+
+/*  Small*/
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.myslider .text-banner{
+	position: absolute;
+	top: 25%;
+	left: 13%;
+	color: #fff;
+}
+
+.bar-progres{
+	position: absolute;
+	bottom: 0.75%;
+	left: 0;
+	width: 13%;
+	height: 3.5px;
+	background-color: #5cadd3;
+}
+
+.text-banner h2{
+    font-size: 13px;
+}
+
+.text-banner p{
+	font-size: 6.5px;
+}
+
+.myslider .button{
+	background-color: #5cadd3;
+	width: 55px;
+	height: 21.5px;
+	text-align: center;
+}
+
+.button a{
+	padding: 7.5px;
+	font-size: 7px;
+}
+
+.block-services-img-details{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.block-services-img-details .services-img{
+	width: 100%;
+}
+
+.block-services-img-details .services-details{
+	width: 100%;
+}
+.services-details .block-details{
+	display: flex;
+    justify-content: space-between;
+}
+
+
+.block-gallery .gallery{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.gallery figure{
+	width: 80%;
+}
+
+
+figure>figcaption{
+	position: absolute;
+	top: 66%;
+	display: none;
+	width: 100%;
+	height: 33%;
+}
+
+figure>div{
+	position: absolute;
+	top: 55%;
+	left: 80%;
+	width: 60px;
+	height: 60px;
+	z-index: 100;
+}
+
+.maps .formulaire{
+	margin: 0;
+	padding: 1%;
+	width: 225px;
+	position: absolute;
+	top: 50%;
+	left: 70%;
+	transform: translate(-50%,-50%);
+	background-color: rgba(255,255,255,0.95);
+}
+
+#form .field{
+	width: 185px;
+	height: 35px;
+}
+
+#form #Message{
+	width: 185px;
+	height: 100px;
+}
+
+.btn{
+	padding: 8px;
+	font-family: "roboto-bold";
+	font-size: 12px;
+	color: #fff;
+	background-color:#5cadd3; 
+	border: none;
+	border-bottom: 3px solid rgba(30,144,255, 0.8);
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px){
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.myslider .text-banner{
+	position: absolute;
+	top: 25%;
+	left: 13%;
+	color: #fff;
+}
+
+.bar-progres{
+	position: absolute;
+	bottom: 0.75%;
+	left: 0;
+	width: 13%;
+	height: 3.5px;
+	background-color: #5cadd3;
+}
+
+.text-banner h2{
+    font-size: 20px;
+}
+
+.text-banner p{
+	font-size: 8px;
+}
+
+.myslider .button{
+	background-color: #5cadd3;
+	width: 65px;
+	height: 31.5px;
+	text-align: center;
+}
+
+.button a{
+	padding: 7.5px;
+	font-size: 9px;
+}
+
+.block-services-img-details{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.block-services-img-details .services-img{
+	width: 100%;
+}
+
+.block-services-img-details .services-details{
+	width: 100%;
+}
+.services-details .block-details{
+	display: flex;
+    justify-content: space-around;
+}
+
+
+.block-gallery .gallery{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.gallery figure{
+	width: 80%;
+}
+
+
+figure>figcaption{
+	position: absolute;
+	top: 66%;
+	display: none;
+	width: 100%;
+	height: 33%;
+    font-size: 24px;
+}
+
+figure>div{
+	position: absolute;
+	top: 59%;
+	left: 80%;
+	width: 80px;
+	height: 80px;
+	z-index: 100;
+}
+
+.maps .formulaire{
+	margin: 0;
+	padding: 1%;
+	width: 245px;
+	position: absolute;
+	top: 50%;
+	left: 80%;
+	transform: translate(-50%,-50%);
+	background-color: rgba(255,255,255,0.95);
+}
+
+#form .field{
+	width: 205px;
+	height: 35px;
+}
+
+#form #Message{
+	width: 205px;
+	height: 100px;
+}
+
+.btn{
+	padding: 8px;
+	font-family: "roboto-bold";
+	font-size: 12px;
+	color: #fff;
+	background-color:#5cadd3; 
+	border: none;
+	border-bottom: 3px solid rgba(30,144,255, 0.8);
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1024px){
+
+header{
+   display: flex;
+   justify-content: space-around;
+}
+
+figure>figcaption{
+	position: absolute;
+	top: 39%;
+	display: none;
+	width: 100%;
+}
+
+figure>div{
+	position: absolute;
+	top: 21%;
+	left: 70%;
+	width: 40px;
+	height: 40px;
+	z-index: 100;
+}
+
+
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1199px){
+
+figure>figcaption{
+	position: absolute;
+	top: 40%;
+	display: none;
+	width: 100%;
+	height: 60%;
+}
+
+figure>div{
+	position: absolute;
+	top: 21%;
+	left: 70%;
+	width: 40px;
+	height: 40px;
+	z-index: 100;
+}
+
+}
